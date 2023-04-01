@@ -1,0 +1,62 @@
+body {
+    background-image: url(https://gamerwall.pro/uploads/posts/2022-03/1647891521_21-gamerwall-pro-p-fon-zelenii-nezhnii-krasivie-21.jpg);
+    background-size: cover;  
+}
+
+p {
+    font-family: 'Nexa Script Semi Bold';
+    font-size: large;
+}
+
+h1 {
+    font-family: 'Elizabeta Modern';
+    color: rgba(0, 0, 255, 0.863);
+}
+h2 {
+    font-family: 'mister bold';
+}
+
+@font-face {
+	font-family: 'Nexa Script Semi Bold';
+	src: url('../fonts/nexa_script_semi_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/nexa_script_semi_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/nexa_script_semi_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/nexa_script_semi_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/nexa_script_semi_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/nexa_script_semi_bold.svg#nexa_script_semi_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'Elizabeta Modern';
+	src: url('../fonts/elizabeta_modern.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/elizabeta_modern.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/elizabeta_modern.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/elizabeta_modern.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/elizabeta_modern.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/elizabeta_modern.svg#elizabeta_modern') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'mister bold';
+	src: url('../fonts/mister_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/mister_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/mister_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/mister_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/mister_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/mister_bold.svg#mister_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+ol, ul, li {
+    font-size: large;
+}
+
+a:hover {
+    color: rgb(220, 26, 26);
+}
+
+img {
+    width: 400px;
+    margin-left: 400px;  
+}
+
+ul, ol {
+    text-align: center;
+    list-style-position: inside;
+}
